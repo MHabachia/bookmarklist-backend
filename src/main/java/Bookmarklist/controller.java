@@ -8,8 +8,8 @@ import java.util.List;
 @RestController
 public class controller {
 
-    @GetMapping("/bookmarks")
-    public List<bookmark_entry> getAllTodos() {
+    @GetMapping("/")
+    public List<bookmark_entry> getAllBookmarks() {
         return List.of(
                 new bookmark_entry("Youtube"),
                 new bookmark_entry("Facebook"),
